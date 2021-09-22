@@ -92,7 +92,7 @@
 					<div class="spinner-border" role="status">
 						<span class="sr-only">Loading...</span>
 					</div>
-					<p class="text-center">AI가 당신의 미모를 분석중입니다.</p>
+					<p class="text-center">AI가 당신의 미모를 분석중입니다. <br/> 거울아~ 거울아~ 세상에서 누가제일 예쁘니~?</p>
 				</div>
 
 				<p class="result-message"></p>
@@ -206,23 +206,23 @@
 				switch (prediction[0].className) {
 					case 'eyes':
 						resultTitle = '눈';
-						resultExplain = ' 오늘은 눈이 예쁘시네요~ ';
+						resultExplain = ' 현재 당신의 미모는 눈이 가장 돋보이시네요~ ';
 						break;
 					case 'eyebrows':
 						resultTitle = '눈썹';
-						resultExplain = ' 오늘은 눈썹이 예쁘시네요~ ';
+						resultExplain = ' 현재 당신의 미모는 눈썹이 가장 돋보이시네요~ ';
 						break;
 					case 'forehead':
 						resultTitle = '이마';
-						resultExplain = ' 오늘은 이마가 예쁘시네요~';
+						resultExplain = ' 현재 당신의 미모는 이마가 가장 돋보이시네요~';
 						break;
 					case 'lips':
 						resultTitle = '입술';
-						resultExplain = ' 오늘은 입술이 예쁘시네요~';
+						resultExplain = ' 현재 당신의 미모는 입술이 가장 돋보이시네요~';
 						break;
 					case 'nose':
 						resultTitle = '코';
-						resultExplain = ' 오늘은 코가 예쁘시네요~';
+						resultExplain = ' 현재 당신의 미모는 코가 가장 돋보이시네요~';
 						break;
 					default:
 						resultTitle = '알수없음';
